@@ -1,0 +1,26 @@
+{
+  "name": "base-redis",
+  "description": "Redis",
+  "version": "0.0.0",
+  "main": "index.js",
+  "options": {
+
+  },
+  "dependencies": {
+    "redis": "^2.8.0"
+  },
+  "modules": [
+    {
+      "key": "set",
+      "config": {
+        "params": {
+          "key": "string",
+          "val": "string"
+        },
+        "output": {
+          "result": "string"
+        }
+      }
+    }
+  ]
+}
